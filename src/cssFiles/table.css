@@ -1,0 +1,36 @@
+th {
+    cursor: pointer;
+    background-color: palevioletred;
+    color: white;
+    font-size: 20px;
+  }
+  th, td {
+    border: 3px solid pink;
+    padding: 20px;
+    text-align: left;
+  }
+  td{
+    background-color: lightpink;
+    
+  }
+  .ascending::after {
+    content: ' ▲';
+}
+.descending::after {
+  content: ' ▼';
+}
+table
+{
+    width:700px;
+    margin: auto;
+    margin-top: 60px;
+    border-collapse: collapse;
+    border:3px solid pink;
+}
+
+caption
+{
+    font-size: 30px;
+    color: red;
+    padding-bottom: 30px;
+}
