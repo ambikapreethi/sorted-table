@@ -13,12 +13,7 @@ th {
     background-color: lightpink;
     
   }
-  .ascending::after {
-    content: ' ▲';
-}
-.descending::after {
-  content: ' ▼';
-}
+  
 table
 {
     width:700px;
