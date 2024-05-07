@@ -25,8 +25,9 @@ export default function SortTable({props})
         <tr>
           <th id="h1" onClick={() => handleSort(0)}>ID</th>
           <th id="h2" onClick={() => handleSort(1)}>Name</th>
-          <th id="h3" onClick={() => handleSort(2)}>Designation</th>
-          <th id="h4" onClick={() => handleSort(3)}>Country</th>
+          <th id="h3" onClick={() => handleSort(2)}>Age</th>
+          <th id="h4" onClick={() => handleSort(3)}>Designation</th>
+          <th id="h5" onClick={() => handleSort(4)}>Country</th>
         </tr>
       </thead>
       <tbody>
@@ -36,7 +37,10 @@ export default function SortTable({props})
             <td>{row[1]}</td>
             <td>{row[2]}</td>
             <td>{row[3]}</td>
+            <td>{row[4]}</td>
           </tr>
+
+        
         ))}
       </tbody>
     </table>
